@@ -12,5 +12,5 @@ exmaple:
 
 php tinypng-directroy-shell.php images my_images/converted 
 
-Note that: input_path and output_path are optional. The default value for the input path is the current path of the script file, and defualt path for the output images is '/converted'
+Note that: input_path and output_path are optional. The default value for the input path is the current path of the script file, and default path for the output images is '/converted'
 
