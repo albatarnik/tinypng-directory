@@ -76,7 +76,6 @@ function tiny_this_file($input,$output)
 // setting default values...
 // if the input path is not passed from shell script will be the current directory
 $path = (isset($argv[1]))? $argv[1] : getcwd();
-$path= 'images';
 // if the output path is not passed, we will create a directory named converted
 // and put the files there.
 $output = (isset($argv[2])) ? $argv[2] : 'converted';
