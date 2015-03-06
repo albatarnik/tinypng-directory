@@ -4,6 +4,7 @@ Shrink png images in a directory using TinyPNG API.
 How to use ? 
 
 - replace your key in the script file.
+
 From shell command:
 
 php tinypng-directroy-shell.php input_path output_path 
