@@ -22,7 +22,7 @@ function tiny_directory($path,$output)
             $extension = strtolower(substr($fileName, strrpos($fileName, '.') + 1));
             // check if the file already compressed
             // we don't need to process it again!
-            if($extension == 'png' && !file_exists($output. '/'. $fileName))
+            if( ($extension == 'png' || $extension == 'jpg') && !file_exists($output. '/'. $fileName))
             {
                 tiny_this_file($path . '/' . $fileName, $output);
             }
