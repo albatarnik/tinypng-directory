@@ -15,7 +15,7 @@ function tiny_directory($path,$output)
     // if the output directory not exist, let's create one !
     if(!file_exists($output))
     {
-        mkdir($output);
+        mkdir($output,true);
     }
     if ($handle = opendir($path)) {
         while (false !== ($fileName = readdir($handle))) {
